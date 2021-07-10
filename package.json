@@ -1,5 +1,6 @@
 {
   "name": "fylo-landing-page",
+  "homepage": "https:///zwuk0/.github.io/fylo-landing-page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +42,7 @@
   },
   "devDependencies": {
     "@svgr/cli": "^5.5.0",
+    "gh-pages": "^3.2.3",
     "rimraf": "^3.0.2",
     "sass": "^1.35.2"
   }
