@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fylo-landing-page/static/css/main.6c6e5228.chunk.css",
-    "main.js": "/fylo-landing-page/static/js/main.441a68d9.chunk.js",
-    "main.js.map": "/fylo-landing-page/static/js/main.441a68d9.chunk.js.map",
+    "main.js": "/fylo-landing-page/static/js/main.e02db23d.chunk.js",
+    "main.js.map": "/fylo-landing-page/static/js/main.e02db23d.chunk.js.map",
     "runtime-main.js": "/fylo-landing-page/static/js/runtime-main.81b3dc4c.js",
     "runtime-main.js.map": "/fylo-landing-page/static/js/runtime-main.81b3dc4c.js.map",
     "static/js/2.87b728f5.chunk.js": "/fylo-landing-page/static/js/2.87b728f5.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.81b3dc4c.js",
     "static/js/2.87b728f5.chunk.js",
     "static/css/main.6c6e5228.chunk.css",
-    "static/js/main.441a68d9.chunk.js"
+    "static/js/main.e02db23d.chunk.js"
   ]
 }
