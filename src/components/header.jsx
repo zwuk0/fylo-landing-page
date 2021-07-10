@@ -18,7 +18,7 @@ function Header() {
           </NavLink>
 
           <NavLink className="nav-links" to="/Sing In">
-            hello
+            Sing up
           </NavLink>
         </div>
       </nav>
