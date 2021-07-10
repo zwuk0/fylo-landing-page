@@ -1,0 +1,83 @@
+footer {
+  width: 100%;
+  background-color: #07043b;
+  //   display: flex;
+  //   justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  bottom: 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  display: grid;
+  place-items: center;
+}
+.foo-logo-wrap {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-wrap2 {
+  display: flex;
+  margin-top: 20px;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.foo-phone,
+.foo-email {
+  display: flex;
+  margin: 10px;
+}
+.foo-icons-contact {
+  margin-right: 10px;
+}
+
+.foo-links {
+  text-decoration: none;
+  color: #fff;
+}
+.foo-links:not(:first-child) {
+  margin-top: 8px;
+}
+.foo-links-wrap {
+  display: grid;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.foo-icons-wrap {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 15%;
+}
+.foo-icons-social {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+
+  border: 1px solid #fff;
+}
+.foo-icons-social:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-wrap2 {
+    display: grid;
+    margin-top: 20px;
+    width: 90%;
+  }
+  .foo-icons-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  .foo-links-wrap {
+    display: grid;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+}

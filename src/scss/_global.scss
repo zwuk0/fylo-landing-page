@@ -1,0 +1,11 @@
+@use 'typography' as t;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: t.$opensans;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}

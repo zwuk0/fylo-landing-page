@@ -1,5 +1,26 @@
 .head {
   width: 100%;
-  height: 30px;
-  background-color: aqua;
+  height: 50px;
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  nav {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+      width: 100px;
+    }
+  }
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+}
+.nav-links:not(:first-child) {
+  margin-left: 20px;
 }
