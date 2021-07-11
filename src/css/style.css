@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
 .head {
   width: 100%;
   height: 50px;
-  background-color: aqua;
+  background-color: #fff;
   display: grid;
   place-items: center;
   font-size: 14px;
@@ -36,3 +37,148 @@ body {
 .nav-links:not(:first-child) {
   margin-left: 20px;
 }
+
+.he-cont-1 {
+  margin-top: 50px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 30px;
+}
+.he-cont-1 .svg-illus-1 {
+  width: 340px;
+  height: auto;
+}
+.he-cont-1 .he-1-box {
+  width: 340px;
+}
+.he-cont-1 .he-1-text {
+  width: 100%;
+  text-align: center;
+}
+.he-cont-1 .he-1-text h1 {
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+.he-cont-1 .he-1-text p {
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+.he-cont-1 .he-1-form {
+  display: grid;
+  width: 340px;
+  margin-top: 30px;
+}
+.he-cont-1 .he-1-form .he-1-input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+  border: 1px solid black;
+}
+.he-cont-1 .he-1-form .he-1-btn {
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  color: #f6f6fe;
+  background-color: #3065f8;
+}
+
+footer {
+  width: 100%;
+  background-color: #070439;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  bottom: 0;
+  color: #f6f6fe;
+  font-size: 14px;
+  font-weight: 300;
+  display: grid;
+  place-items: center;
+}
+
+.foo-logo-wrap {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-wrap2 {
+  display: flex;
+  margin-top: 20px;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.foo-phone,
+.foo-email {
+  display: flex;
+  margin: 10px;
+}
+
+.foo-icons-contact {
+  margin-right: 10px;
+}
+
+.foo-links {
+  text-decoration: none;
+  color: #f6f6fe;
+}
+
+.foo-links:not(:first-child) {
+  margin-top: 8px;
+}
+
+.foo-links-wrap {
+  display: grid;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+.foo-icons-wrap {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 15%;
+}
+
+.foo-icons-social {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #f6f6fe;
+}
+
+.foo-icons-social:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-wrap2 {
+    display: grid;
+    margin-top: 20px;
+    width: 90%;
+  }
+
+  .foo-icons-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .foo-links-wrap {
+    display: grid;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

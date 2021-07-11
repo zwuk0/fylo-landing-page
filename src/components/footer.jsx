@@ -1,4 +1,4 @@
-import "../scss/_footer.scss";
+import "../scss/style.scss";
 import SvgLogo from "../images/svgs/Logo";
 import SvgIconPhone from "../images/svgs/IconPhone";
 import SvgIconEmail from "../images/svgs/IconEmail";

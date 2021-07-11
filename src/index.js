@@ -4,10 +4,12 @@ import { BrowserRouter } from "react-router-dom";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import reportWebVitals from "./reportWebVitals";
+import Hero1 from "./components/hero1";
 
 ReactDOM.render(
   <BrowserRouter>
     <Header />
+    <Hero1 />
     <Footer />
   </BrowserRouter>,
   document.getElementById("root")

@@ -1,7 +1,9 @@
 @use 'typography' as t;
+@use 'variables' as v;
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: t.$opensans;
