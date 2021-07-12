@@ -2,8 +2,6 @@
 footer {
   width: 100%;
   background-color: v.$vdblue;
-  //   display: flex;
-  //   justify-content: center;
   padding-top: 100px;
   padding-bottom: 50px;
   bottom: 0;
@@ -48,8 +46,10 @@ footer {
 }
 .foo-icons-wrap {
   display: flex;
-  margin-top: 10px;
-  margin-left: 15%;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2em;
+  margin-left: 0;
 }
 .foo-icons-social {
   width: 30px;
@@ -64,21 +64,37 @@ footer {
   margin-right: 20px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 48rem) {
+  .foo-logo-wrap {
+    width: 100%;
+    display: flex;
+    max-width: 75em;
+    margin-left: 2em;
+    justify-content: flex-start;
+  }
   .footer-wrap2 {
-    display: grid;
+    display: flex;
+
     margin-top: 20px;
-    width: 90%;
+    width: 100%;
+    margin-left: 2em;
+
+    max-width: 75em;
   }
   .foo-icons-wrap {
     display: flex;
+    width: 100%;
+    max-width: 15em;
     justify-content: center;
     margin-top: 10px;
-    margin-left: 0;
+    margin-left: 5em;
+    margin-right: 2em;
   }
   .foo-links-wrap {
     display: grid;
-    margin-left: 2%;
     margin-top: 20px;
+  }
+  .foo-links-wrap:last-child {
+    margin-right: 5em;
   }
 }
