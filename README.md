@@ -1,1 +1,2 @@
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://zwuk0.github.io/fylo-landing-page/](https://zwuk0.github.io/fylo-landing-page/)
+Made with ReactJS and SCSS 
