@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fylo-landing-page/static/css/main.f2db7b09.chunk.css",
+    "main.css": "/fylo-landing-page/static/css/main.b3af8ea7.chunk.css",
     "main.js": "/fylo-landing-page/static/js/main.ea5923e4.chunk.js",
     "main.js.map": "/fylo-landing-page/static/js/main.ea5923e4.chunk.js.map",
     "runtime-main.js": "/fylo-landing-page/static/js/runtime-main.c84c7086.js",
@@ -10,14 +10,14 @@
     "static/js/3.b4378c0e.chunk.js": "/fylo-landing-page/static/js/3.b4378c0e.chunk.js",
     "static/js/3.b4378c0e.chunk.js.map": "/fylo-landing-page/static/js/3.b4378c0e.chunk.js.map",
     "index.html": "/fylo-landing-page/index.html",
-    "static/css/main.f2db7b09.chunk.css.map": "/fylo-landing-page/static/css/main.f2db7b09.chunk.css.map",
+    "static/css/main.b3af8ea7.chunk.css.map": "/fylo-landing-page/static/css/main.b3af8ea7.chunk.css.map",
     "static/js/2.13e6c4bf.chunk.js.LICENSE.txt": "/fylo-landing-page/static/js/2.13e6c4bf.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/fylo-landing-page/static/media/icon-quotes.fefaf075.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c84c7086.js",
     "static/js/2.13e6c4bf.chunk.js",
-    "static/css/main.f2db7b09.chunk.css",
+    "static/css/main.b3af8ea7.chunk.css",
     "static/js/main.ea5923e4.chunk.js"
   ]
 }
