@@ -16,15 +16,15 @@ function Hero1() {
               family, and co-workers.
             </p>
           </div>
+          <form action="#" className="he-1-form">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              className="he-1-input"
+            />
+            <button className="he-1-btn">Get Started</button>
+          </form>
         </div>
-        <form action="#" className="he-1-form">
-          <input
-            type="text"
-            placeholder="Enter your email"
-            className="he-1-input"
-          />
-          <button className="he-1-btn">Get Started</button>
-        </form>
       </div>
     </div>
   );

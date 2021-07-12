@@ -8,6 +8,7 @@ function SvgIllustration2(props) {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width={1077.87}
       height={813.02}
+      viewBox={"0 0 1077.87 813.02"}
       {...props}
     >
       <defs>

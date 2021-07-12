@@ -5,11 +5,15 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import reportWebVitals from "./reportWebVitals";
 import Hero1 from "./components/hero1";
+import Productive from "./components/productive";
+import Signup from "./components/signup";
 
 ReactDOM.render(
   <BrowserRouter>
     <Header />
     <Hero1 />
+    <Productive />
+    <Signup />
     <Footer />
   </BrowserRouter>,
   document.getElementById("root")

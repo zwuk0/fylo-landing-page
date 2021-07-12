@@ -1,0 +1,95 @@
+@use 'variables' as v;
+@use 'typography' as t;
+.signup {
+  background-color: v.$desblue;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-family: t.$opensans;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  color: v.$grablue;
+  .signup-text {
+    width: 35ch;
+    text-align: center;
+    p {
+      margin-top: 1em;
+    }
+  }
+  .signup-form {
+    display: grid;
+    width: 80%;
+    place-items: center;
+    margin-top: 2em;
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid v.$ligray;
+      max-width: 40em;
+    }
+    button {
+      margin-top: 1em;
+      padding: 10px;
+      width: 100%;
+      max-width: 40em;
+      background-color: v.$briblue;
+      border: 1px solid v.$briblue;
+      border-radius: 3px;
+      color: v.$grablue;
+      font-weight: 700;
+    }
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .signup {
+    background-color: v.$desblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: t.$opensans;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    color: v.$grablue;
+    .signup-text {
+      margin-left: 2rem;
+      width: 100%;
+      max-width: 30em;
+      text-align: left;
+      p {
+        margin-top: 1em;
+      }
+    }
+    .signup-form {
+      display: inline;
+      text-align: left;
+      width: 100%;
+
+      margin-top: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+      max-width: 30rem;
+
+      input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid v.$ligray;
+        max-width: 40em;
+      }
+      button {
+        margin-top: 1em;
+        padding: 10px;
+        width: 100%;
+        max-width: 15em;
+        background-color: v.$briblue;
+        border: 1px solid v.$briblue;
+        border-radius: 3px;
+        color: v.$grablue;
+        font-weight: 700;
+      }
+    }
+  }
+}
