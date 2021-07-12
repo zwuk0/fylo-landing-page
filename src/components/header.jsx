@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="head">
       <nav className="navbar">
-        <SvgLogo style={{ height: 24 + "px", width: 100 + "px" }} />
+        <SvgLogo className="logo" />
         <div>
           <NavLink className="nav-links" to="/features">
             Features
@@ -18,7 +18,7 @@ function Header() {
           </NavLink>
 
           <NavLink className="nav-links" to="/Sing In">
-            Sing up
+            Sign up
           </NavLink>
         </div>
       </nav>
